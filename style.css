@@ -128,7 +128,7 @@ h1 {
   opacity: 1;
 }
 
-.bug {
+.insect {
   cursor: pointer;
   display: flex;
   align-items: center;
@@ -138,15 +138,13 @@ h1 {
   position: absolute;
   transform: translate(-50%, -50%) scale(1);
   transition: transform 0.3s ease-in;
-  top: 200px;
-  left: 300px;
 }
 
-.bug.caught {
+.insect.caught {
   transform: translate(-50%, -50%) scale(0);
 }
 
-.bug img {
+.insect img {
   width: 100px;
   height: 100px;
 }
